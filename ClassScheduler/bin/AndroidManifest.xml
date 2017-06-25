@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.st.cs"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="Class Scheduler" >
+        <activity
+            android:name="com.st.cs.ListBatchesActivity"
+            android:label="List Of Batches" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.st.cs.AddBatchActivity"
+            android:label="Add Batch" />
+        <activity
+            android:name="com.st.cs.ListClassesActivity"
+            android:label="List Classes" />
+        <activity
+            android:name="com.st.cs.AddClassActivity"
+            android:label="Add Class" />
+        <activity
+            android:name="com.st.cs.UpdateBatchActivity"
+            android:label="Update Batch" />
+        <activity
+            android:name="com.st.cs.UpdateClassActivity"
+            android:label="Update Class" />
+        <activity
+            android:name="com.st.cs.MsgActivity"
+            android:label="@string/title_activity_msg" >
+        </activity>
+        <activity
+            android:name="com.st.cs.LeaveActivity"
+            android:label="@string/title_activity_leave" >
+        </activity>
+        <activity
+            android:name="com.st.cs.LeaveFormActivity"
+            android:label="@string/title_activity_leave_form" >
+        </activity>
+        <activity
+            android:name="com.st.cs.ViewBatchActivity"
+            android:label="@string/title_activity_view_batch" >
+        </activity>
+    </application>
+
+</manifest>

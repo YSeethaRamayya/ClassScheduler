@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ClassSchedulerActivity!</string>
+    <string name="app_name">ClassScheduler</string>
+    <string name="title_activity_msg">MsgActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="StudentNo">Student No</string>
+    <string name="Message">Message</string>
+    <string name="Send">Send</string>
+    <string name="MessageToStudent">MessagToStudent</string>
+    <string name="title_activity_leave">LeaveActivity</string>
+    <string name="studentname">Name</string>
+    <string name="branch">Branch</string>
+    <string name="Year">Year</string>
+    <string name="rno">Reg.No</string>
+    <string name="Cause">Cause</string>
+    <string name="nod">No.of Days</string>
+    <string name="sendhod">Send To HOD</string>
+    <string name="sleave">Send Leave Form To HOD</string>
+    <string name="LeaveForm">LeaveForm</string>
+    <string name="title_activity_leave_form">LeaveFormActivity</string>
+    <string name="title_activity_view_batch">ViewBatchActivity</string>
+
+</resources>
